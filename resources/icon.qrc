@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="resources">
+    <file>bck.png</file>
+    <file>compress.png</file>
+    <file>extract.png</file>
+    <file>logout.png</file>
+    <file>open.png</file>
+  </qresource>
+</RCC>
