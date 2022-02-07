@@ -1,4 +1,8 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QRect
+from PyQt5.QtGui import QPainter
+from PyQt5.QtWidgets import QWidget
+
 import icon
 
 
@@ -10,9 +14,6 @@ class Ui_mainwindow(object):
         mainwindow.setMinimumSize(QtCore.QSize(550, 200))
         mainwindow.setMaximumSize(QtCore.QSize(550, 200))
         mainwindow.setStyleSheet("background-image: url(:/resources/bck.png);")
-
-        def say_hello():
-            print("Button clicked, Hello!")
 
         self.centralwidget = QtWidgets.QWidget(mainwindow)
         self.centralwidget.setObjectName("centralwidget")
